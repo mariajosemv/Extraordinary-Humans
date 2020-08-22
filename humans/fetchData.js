@@ -24,7 +24,7 @@ fetch("./records.json")
           aria-expanded="true"
           aria-controls="collapse${idx}"
         >
-          ${x.title}
+          ${x.record}
         </button>
       </h2>
     </div>
@@ -36,7 +36,7 @@ fetch("./records.json")
       data-parent="#accordion"
     >
       <div class="card-body">
-        ${x.body}
+        ${x.desc}
         <br>
         <br>
         <a href=${x.url} target="_blank">See more</a>
