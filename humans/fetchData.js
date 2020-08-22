@@ -1,6 +1,6 @@
 let = $accordion = document.getElementById("accordion");
 
-let humansData = null;
+let ciaData = null;
 
 fetch("./records.json")
 // agregar el JSON desde la nube
@@ -10,8 +10,8 @@ fetch("./records.json")
   })
   .then((data) => {
     // Work with JSON data here
-    humansData = data;
-    cards = humansData.map(
+    ciaData = data;
+    cards = ciaData.map(
       (x, idx) => `
     <div class="card">
     <div class="card-header bg-dark" id="heading${idx}">
