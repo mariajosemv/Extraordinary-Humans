@@ -36,7 +36,7 @@ fetch("./records.json")
       data-parent="#accordion"
     >
       <div class="card-body">
-        ${x.image}
+        <img src=${x.image} width="350">
         <br>
         ${x.desc}
         <br>
