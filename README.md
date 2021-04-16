@@ -7,4 +7,4 @@ A web page to show the most exotic humans that have won a Guinness World Records
 - Scrapy.
 - Basic HTML and CSS.
 
- #### 🚀 [Demo](https://mariajosemv.github.io/extraordinary-humans/) 
+ #### 🚀 [Demo](https://mariajosemv.github.io/Extraordinary-Humans/) 
